@@ -7,12 +7,12 @@ from spotipy.oauth2 import SpotifyOAuth
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
-        client_id="fe5b91bc5e9c4b519a9cc1703a0e9413",
-        client_secret="d2a94c51533b4aefb09fc3fdc07ced00",
+        client_id="#",
+        client_secret="#",
         redirect_uri="http://example.com",
         show_dialog=True,
         cache_path="token.txt",
-        username="ce5525wv95lj48s6dusfhahh6",
+        username="#",
     )
 )
 
